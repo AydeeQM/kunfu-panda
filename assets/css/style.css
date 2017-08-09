@@ -50,7 +50,7 @@ font-family: 'Raleway', sans-serif;
 #separador {
     background: #F78E69;
     background-position: center;
-    padding: 10px 0; 
+    padding: 13px 0; 
 }
 
 .texto {
@@ -86,18 +86,20 @@ font-family: 'Raleway', sans-serif;
     padding: 320px 0;
 }
 
-.pictures{
+#pictures{
     margin: 0 auto;
-    width: 800px;
-    height: 500px;
     overflow:hidden;
-    background-color: black;
+    background: #ABE188;
+    background-position: center;
+    padding: 83px 0;
+    position: relative;
+    bottom: 45.5em;
 }
 
-.pictures h2 {
+#pictures h2 {
     font-weight: bolder;
     font-size: 3rem;
-    line-height: 4rem;
+    line-height: 6rem;
     text-align: center;
     color: #fff;
 }
@@ -112,7 +114,6 @@ font-family: 'Raleway', sans-serif;
 	display: flex;
 	padding: 0;
 	width: 400%;
-	
 	animation: cambio 20s infinite alternate linear;
 }
 
@@ -139,18 +140,29 @@ font-family: 'Raleway', sans-serif;
 	100% {margin-left: -300%;}
 }
 
+#separadorbug {
+    background: #F78E69;
+    background-position: center;
+    padding: 12px 0;
+    position: relative;
+    top: 25em;
+}
 
 #threepanda {
     background: url('../img/tres.jpg');
     background-size: cover;
     background-position: center;
     padding: 320px 0;
+    position: relative;
+    top: 25em;
 }
 
 footer {
     background-color: #F78E69;
     padding: 20px 30px;
     color: white;
+    position: relative;
+    top: 25em;
 }
 
 footer p {

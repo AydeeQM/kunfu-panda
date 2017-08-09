@@ -1,10 +1,11 @@
 var pictures = ["assets/img/a1.jpg","assets/img/a2.jpg", "assets/img/a3.jpg", "assets/img/a4.jpg"];
 
-var pandas_pequeñas = '';
+var pandas_peques = '';
 
 for(var i = 0; i < pictures.length; i++){
-    pandas_pequeñas += pandas_pequeñas[i];
+    pandas_peques += pictures[i];
 }
+
 
 var li1 = document.createElement('li');
 var li2 = document.createElement('li');
