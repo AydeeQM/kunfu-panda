@@ -47,6 +47,7 @@ font-family: 'Raleway', sans-serif;
     padding: 240px 0;
 }
 
+/* separador */
 #separador {
     background: #F78E69;
     background-position: center;
@@ -79,6 +80,7 @@ font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
+/* insertando segunda imagen*/
 #twopanda {
     background: url('../img/dos.jpg');
     background-size: cover;
@@ -86,6 +88,7 @@ font-family: 'Raleway', sans-serif;
     padding: 320px 0;
 }
 
+/* insertando las 4 imagenes */
 #pictures{
     margin: 0 auto;
     overflow:hidden;
@@ -139,7 +142,7 @@ font-family: 'Raleway', sans-serif;
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
-
+/* separador */
 #separadorbug {
     background: #F78E69;
     background-position: center;
@@ -148,6 +151,7 @@ font-family: 'Raleway', sans-serif;
     top: 25em;
 }
 
+/* agregando tercera imagen */
 #threepanda {
     background: url('../img/tres.jpg');
     background-size: cover;
@@ -157,6 +161,7 @@ font-family: 'Raleway', sans-serif;
     top: 25em;
 }
 
+/* agregando pie de pagina */
 footer {
     background-color: #F78E69;
     padding: 20px 30px;
